@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.avila.pc.practica1.Main3Activity">
+
+    <TextView
+        android:id="@+id/tVdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:textAlignment="textEnd"
+        android:layout_margin="12sp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="@color/honeydew"
+
+        />
+
+    <TableLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/siete"
+                android:id="@+id/num7"
+                android:onClick="siete"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:id="@+id/num8"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/ocho"
+                android:onClick="ocho"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/nueve"
+                android:id="@+id/num9"
+                android:onClick="nueve"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/mas"
+                android:id="@+id/plus"
+                android:onClick="suma"
+                android:background="@color/darkblue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+
+            >
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/cuatro"
+                android:id="@+id/num4"
+                android:onClick="cuatro"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/cinco"
+                android:id="@+id/num5"
+                android:onClick="cinco"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/seis"
+                android:id="@+id/num6"
+                android:onClick="seis"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/menos"
+                android:id="@+id/Rest"
+                android:onClick="resta"
+                android:background="@color/darkblue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            >
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/uno"
+                android:id="@+id/num1"
+                android:onClick="uno"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/dos"
+                android:id="@+id/num2"
+                android:onClick="dos"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/tres"
+                android:id="@+id/num3"
+                android:onClick="tres"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/por"
+                android:id="@+id/Mult"
+                android:onClick="multiplicacion"
+                android:background="@color/darkblue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/dot"
+                android:id="@+id/Dot"
+                android:onClick="punto"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/cero"
+                android:id="@+id/num0"
+                android:onClick="cero"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/igual"
+                android:id="@+id/equal"
+                android:onClick="igual"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:text="@string/div"
+                android:id="@+id/Div"
+                android:onClick="division"
+                android:background="@color/darkblue"
+                android:textColor="@color/white"
+                android:layout_margin="1sp"
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.avila.pc.practica1.Siguiente">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/Nacimiento"
+            tools:textSize="12sp" />
+
+        <EditText android:id="@+id/eFecha"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/formato"
+            android:inputType="datetime"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bFecha"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="mostrarCalendario"
+            android:text="@string/Selecciona"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/City"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_margin="0sp"
+            android:layout_weight="0.5"
+            android:textColor="@color/black"
+            android:text="@string/Ciudad"
+            android:textSize="15sp"
+
+
+            />
+
+        <Spinner
+            android:id="@+id/sCity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="0sp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etOtra"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:hint="@string/aclaración1"
+        android:textSize="12sp"
+        android:layout_margin="7sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textSize="12sp"
+            android:text="@string/aficiones"
+            android:layout_margin="0sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_marginTop="0sp">
+
+            <CheckBox
+                android:id="@+id/cbLectura"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Lectura"
+                android:textSize="10sp"/>
+
+            <CheckBox
+                android:id="@+id/cbMusica"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Música"
+                android:textSize="10sp"/>
+
+            <CheckBox
+                android:id="@+id/cbFutbol"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Fútbol"
+                android:textSize="10sp"/>
+
+            <CheckBox
+                android:id="@+id/cbOtros"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="Otro"
+                android:text="@string/Otros"
+                tools:onClick="Otro"
+                android:textSize="10sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etOtro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="7sp"
+        android:layout_weight="0.7"
+        android:textSize="12sp"
+        android:hint="@string/aclaración2"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_margin="20sp"
+        >
+        <TextView
+            android:text="@string/Sexo"
+            android:layout_weight="0.5"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/masculino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Masculino"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/femenino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Femenino"
+                    android:textSize="12sp"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/bRegistrar"
+        android:layout_weight="1"
+        android:height="0sp"
+        android:text="@string/Registrar"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Practica 1</string>
+    <string name="Nombres">Nombres</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="Teléfono">Teléfono</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Repetir">Repetir</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="Registrar">Registrar</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Sexo">Sexo</string>
+    <string name="Otros">Otros</string>
+    <string name="Fútbol">Fútbol</string>
+    <string name="Música">Música</string>
+    <string name="Lectura">Lectura</string>
+    <string name="Ciudad">Ciudad de Nacimiento</string>
+    <string name="Selecciona">Selecciona</string>
+    <string name="Nacimiento">Fecha de Nacimiento</string>
+    <string name="formato">DD/MM/AAAA</string>
+    <string name="aclaración1">Escriba aquí su Ciudad de nacimiento</string>
+    <string name="aficiones">Aficiones:</string>
+    <string name="aclaración2">Indique otras Aficiones</string>
+</resources>

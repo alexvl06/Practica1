@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.avila.pc.practica1.Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:text="@string/Nombres"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/eNombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:textColor="@color/black"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:text="@string/Apellidos"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/eApellido"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+
+            android:layout_weight="0.3"
+            android:text="@string/email"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/eMail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="0sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_weight="0.3"
+            android:text="@string/Teléfono"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ePhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7sp"
+            android:layout_weight="0.3"
+            android:text="@string/Contraseña"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ePass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_weight="0.3"
+            android:text="@string/Repetir"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/eRepet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="11sp"
+            android:hint="Digite nuevamente su contraseña"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:text="@string/Siguiente"
+        android:id="@+id/bNext"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>

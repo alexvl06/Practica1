@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica 1</string>
+    <string name="Banda_1">Primera Banda</string>
+    <string name="Banda_2">Segunda Banda</string>
+    <string name="Banda_3">Tercera Banda</string>
+    <string name="calcular">Calcular</string>
+    <string name="Banda_4">Cuarta Banda</string>
+</resources>

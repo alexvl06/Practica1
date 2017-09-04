@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practica 1</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Cubo">Cubo</string>
+    <string name="Círculo">Círculo</string>
+    <string name="Tríangulo">Tríangulo Equilátero</string>
+    <string name="Cuadrado">Cuadrado</string>
+    <string name="space" />
+</resources>
